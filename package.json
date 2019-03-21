@@ -1,0 +1,28 @@
+{
+  "name": "xhr-spy",
+  "version": "1.0.0",
+  "description": "A spy on XMLHttpRequest. 🤫",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jinhongli/xhr-spy.git"
+  },
+  "keywords": [
+    "XMLHttpRequest",
+    "spy"
+  ],
+  "author": "jinhongli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jinhongli/xhr-spy/issues"
+  },
+  "homepage": "https://github.com/Jinhongli/xhr-spy#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.1"
+  }
+}
